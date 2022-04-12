@@ -160,7 +160,7 @@ values  (default, 1000),
  		(default, 2300),
    		(default, 2400);
    		
-select * from salary;
+select * from employee_salary;
 
 --Таблица employee_salary
 --
@@ -218,7 +218,10 @@ values  (default, 1, 3),
 		(default, 93, 14),
 		(default, 101, 13),
 		(default, 100, 9);
-		
+	
+update employee_salary
+set salary_id = 5
+where salary_id = 4
 	
 --Таблица roles
 --

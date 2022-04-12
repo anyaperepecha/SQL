@@ -119,3 +119,7 @@ order by created_on desc;
 
 select * from students
 where name like '[A]%';
+
+select * from roles;
+
+select roles.role_title, salary.monthly_salary
